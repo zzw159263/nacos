@@ -1,0 +1,686 @@
+2022-12-03 13:19:32,575 INFO listen for service meta change
+
+2022-12-03 13:19:39,093 INFO [SERVER-INIT] got port: 8848
+
+2022-12-03 13:19:39,093 INFO [SERVER-INIT] got path: /nacos
+
+2022-12-03 13:19:52,416 INFO receive config info: unknown#192.168.56.1:8848#1670044792416#4
+
+
+2022-12-03 13:20:07,425 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [], new: [{"adWeight":0,"alive":true,"ip":"192.168.56.1","key":"192.168.56.1:8848","lastRefTime":1670044792416,"lastRefTimeStr":"2022-12-03 13:19:52","servePort":8848,"site":"unknown","weight":4}]
+
+2022-12-03 13:20:07,425 INFO receive config info: unknown#192.168.56.1:8848#1670044807425#4
+
+
+2022-12-03 13:20:22,439 INFO receive config info: unknown#192.168.56.1:8848#1670044822439#4
+
+
+2022-12-03 13:20:37,450 INFO receive config info: unknown#192.168.56.1:8848#1670044837450#4
+
+
+2022-12-03 13:20:52,465 INFO receive config info: unknown#192.168.56.1:8848#1670044852465#4
+
+
+2022-12-03 13:21:07,465 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2022-12-03 13:21:07,465 INFO receive config info: unknown#192.168.56.1:8848#1670044867465#4
+
+
+2022-12-03 13:21:22,468 INFO receive config info: unknown#192.168.56.1:8848#1670044882468#4
+
+
+2022-12-03 13:21:37,475 INFO receive config info: unknown#192.168.56.1:8848#1670044897475#4
+
+
+2022-12-03 13:21:52,485 INFO receive config info: unknown#192.168.56.1:8848#1670044912485#4
+
+
+2022-12-03 13:22:07,487 INFO receive config info: unknown#192.168.56.1:8848#1670044927487#4
+
+
+2022-12-03 13:22:22,491 INFO receive config info: unknown#192.168.56.1:8848#1670044942491#4
+
+
+2022-12-03 13:22:37,497 INFO receive config info: unknown#192.168.56.1:8848#1670044957497#4
+
+
+2022-12-03 13:22:52,501 INFO receive config info: unknown#192.168.56.1:8848#1670044972500#4
+
+
+2022-12-03 13:23:07,513 INFO receive config info: unknown#192.168.56.1:8848#1670044987513#4
+
+
+2022-12-03 13:23:22,526 INFO receive config info: unknown#192.168.56.1:8848#1670045002526#4
+
+
+2022-12-03 13:23:37,531 INFO receive config info: unknown#192.168.56.1:8848#1670045017531#4
+
+
+2022-12-03 13:23:45,725 INFO creating empty service public:DEFAULT_GROUP@@renren-fast
+
+2022-12-03 13:23:45,758 INFO [NEW-SERVICE] {"appName":"","checksum":"c2e4f175c8f2eb1d041b196f1b2a32b9","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2571,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1670045025738},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","sitegroup":"","useIPPort4Check":true}},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1670045025729,"metadata":{},"name":"DEFAULT_GROUP@@renren-fast","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-12-03 13:23:45,767 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045025734,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-12-03 13:23:45,763 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045025721,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2022-12-03 13:23:45,773 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045025734,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2022-12-03 13:23:52,543 INFO receive config info: unknown#192.168.56.1:8848#1670045032543#4
+
+
+2022-12-03 13:24:07,558 INFO receive config info: unknown#192.168.56.1:8848#1670045047558#4
+
+
+2022-12-03 13:24:22,564 INFO receive config info: unknown#192.168.56.1:8848#1670045062564#4
+
+
+2022-12-03 13:24:37,581 INFO receive config info: unknown#192.168.56.1:8848#1670045077581#4
+
+
+2022-12-03 13:24:52,583 INFO receive config info: unknown#192.168.56.1:8848#1670045092583#4
+
+
+2022-12-03 13:25:07,589 INFO receive config info: unknown#192.168.56.1:8848#1670045107589#4
+
+
+2022-12-03 13:25:22,599 INFO receive config info: unknown#192.168.56.1:8848#1670045122599#4
+
+
+2022-12-03 13:25:37,604 INFO receive config info: unknown#192.168.56.1:8848#1670045137604#4
+
+
+2022-12-03 13:25:50,231 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-12-03 13:25:52,605 INFO receive config info: unknown#192.168.56.1:8848#1670045152605#4
+
+
+2022-12-03 13:26:02,540 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045162540,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2022-12-03 13:26:02,542 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045162540,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2022-12-03 13:26:07,616 INFO receive config info: unknown#192.168.56.1:8848#1670045167616#4
+
+
+2022-12-03 13:26:22,627 INFO receive config info: unknown#192.168.56.1:8848#1670045182627#4
+
+
+2022-12-03 13:26:37,641 INFO receive config info: unknown#192.168.56.1:8848#1670045197641#4
+
+
+2022-12-03 13:26:52,656 INFO receive config info: unknown#192.168.56.1:8848#1670045212656#4
+
+
+2022-12-03 13:27:07,669 INFO receive config info: unknown#192.168.56.1:8848#1670045227669#4
+
+
+2022-12-03 13:27:22,677 INFO receive config info: unknown#192.168.56.1:8848#1670045242677#4
+
+
+2022-12-03 13:27:37,688 INFO receive config info: unknown#192.168.56.1:8848#1670045257688#4
+
+
+2022-12-03 13:27:52,697 INFO receive config info: unknown#192.168.56.1:8848#1670045272697#4
+
+
+2022-12-03 13:28:07,701 INFO receive config info: unknown#192.168.56.1:8848#1670045287701#4
+
+
+2022-12-03 13:28:22,702 INFO receive config info: unknown#192.168.56.1:8848#1670045302702#4
+
+
+2022-12-03 13:28:37,706 INFO receive config info: unknown#192.168.56.1:8848#1670045317706#4
+
+
+2022-12-03 13:28:52,714 INFO receive config info: unknown#192.168.56.1:8848#1670045332714#4
+
+
+2022-12-03 13:29:07,728 INFO receive config info: unknown#192.168.56.1:8848#1670045347728#4
+
+
+2022-12-03 13:29:09,383 INFO creating empty service public:DEFAULT_GROUP@@gulimall-gateway
+
+2022-12-03 13:29:09,384 INFO [NEW-SERVICE] {"appName":"","checksum":"86b9514467e92487b486bae22fb1b496","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1670045349383,"metadata":{},"name":"DEFAULT_GROUP@@gulimall-gateway","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-12-03 13:29:09,384 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045349383,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@gulimall-gateway","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-12-03 13:29:09,384 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045349383,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@gulimall-gateway","tenant":"","weight":1.0}]}
+
+2022-12-03 13:29:09,387 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045349387,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@gulimall-gateway","tenant":"","weight":1.0}]}
+
+2022-12-03 13:29:22,731 INFO receive config info: unknown#192.168.56.1:8848#1670045362731#4
+
+
+2022-12-03 13:29:37,736 INFO receive config info: unknown#192.168.56.1:8848#1670045377736#4
+
+
+2022-12-03 13:29:52,742 INFO receive config info: unknown#192.168.56.1:8848#1670045392742#4
+
+
+2022-12-03 13:30:07,753 INFO receive config info: unknown#192.168.56.1:8848#1670045407753#4
+
+
+2022-12-03 13:30:22,765 INFO receive config info: unknown#192.168.56.1:8848#1670045422765#4
+
+
+2022-12-03 13:30:37,769 INFO receive config info: unknown#192.168.56.1:8848#1670045437769#4
+
+
+2022-12-03 13:30:42,467 INFO creating empty service public:DEFAULT_GROUP@@gulimall-product
+
+2022-12-03 13:30:42,467 INFO [NEW-SERVICE] {"appName":"","checksum":"290bddddf4e5347a46a0b1eefcc0e4f1","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1670045442467,"metadata":{},"name":"DEFAULT_GROUP@@gulimall-product","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-12-03 13:30:42,468 WARN cluster: DEFAULT not found, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045442467,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":10001,"serviceName":"DEFAULT_GROUP@@gulimall-product","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-12-03 13:30:42,470 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-product, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045442467,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":10001,"serviceName":"DEFAULT_GROUP@@gulimall-product","tenant":"","weight":1.0}]}
+
+2022-12-03 13:30:48,626 INFO creating empty service public:DEFAULT_GROUP@@gulimall-third-party
+
+2022-12-03 13:30:48,626 INFO [NEW-SERVICE] {"appName":"","checksum":"cac9ba50455c0e9ecb07465137243","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1670045448626,"metadata":{},"name":"DEFAULT_GROUP@@gulimall-third-party","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-12-03 13:30:48,626 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045448626,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":30000,"serviceName":"DEFAULT_GROUP@@gulimall-third-party","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-12-03 13:30:48,626 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-third-party, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045448626,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":30000,"serviceName":"DEFAULT_GROUP@@gulimall-third-party","tenant":"","weight":1.0}]}
+
+2022-12-03 13:30:48,630 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-third-party, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670045448630,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":30000,"serviceName":"DEFAULT_GROUP@@gulimall-third-party","tenant":"","weight":1.0}]}
+
+2022-12-03 13:30:52,773 INFO receive config info: unknown#192.168.56.1:8848#1670045452773#4
+
+
+2022-12-03 13:31:07,776 INFO receive config info: unknown#192.168.56.1:8848#1670045467776#4
+
+
+2022-12-03 13:31:22,783 INFO receive config info: unknown#192.168.56.1:8848#1670045482783#4
+
+
+2022-12-03 13:31:37,786 INFO receive config info: unknown#192.168.56.1:8848#1670045497786#4
+
+
+2022-12-03 13:31:52,799 INFO receive config info: unknown#192.168.56.1:8848#1670045512799#4
+
+
+2022-12-03 13:32:07,811 INFO receive config info: unknown#192.168.56.1:8848#1670045527811#4
+
+
+2022-12-03 13:32:22,812 INFO receive config info: unknown#192.168.56.1:8848#1670045542812#4
+
+
+2022-12-03 13:32:37,816 INFO receive config info: unknown#192.168.56.1:8848#1670045557816#4
+
+
+2022-12-03 13:32:52,827 INFO receive config info: unknown#192.168.56.1:8848#1670045572827#4
+
+
+2022-12-03 13:33:07,843 INFO receive config info: unknown#192.168.56.1:8848#1670045587843#4
+
+
+2022-12-03 13:33:22,850 INFO receive config info: unknown#192.168.56.1:8848#1670045602850#4
+
+
+2022-12-03 13:33:37,851 INFO receive config info: unknown#192.168.56.1:8848#1670045617851#4
+
+
+2022-12-03 13:33:52,861 INFO receive config info: unknown#192.168.56.1:8848#1670045632861#4
+
+
+2022-12-03 13:34:07,866 INFO receive config info: unknown#192.168.56.1:8848#1670045647866#4
+
+
+2022-12-03 13:34:22,870 INFO receive config info: unknown#192.168.56.1:8848#1670045662870#4
+
+
+2022-12-03 13:34:37,872 INFO receive config info: unknown#192.168.56.1:8848#1670045677872#4
+
+
+2022-12-03 13:34:52,879 INFO receive config info: unknown#192.168.56.1:8848#1670045692879#4
+
+
+2022-12-03 13:35:07,883 INFO receive config info: unknown#192.168.56.1:8848#1670045707883#4
+
+
+2022-12-03 13:35:22,889 INFO receive config info: unknown#192.168.56.1:8848#1670045722889#4
+
+
+2022-12-03 13:35:37,893 INFO receive config info: unknown#192.168.56.1:8848#1670045737893#4
+
+
+2022-12-03 13:35:52,894 INFO receive config info: unknown#192.168.56.1:8848#1670045752894#4
+
+
+2022-12-03 13:36:07,908 INFO receive config info: unknown#192.168.56.1:8848#1670045767908#4
+
+
+2022-12-03 13:36:22,910 INFO receive config info: unknown#192.168.56.1:8848#1670045782910#4
+
+
+2022-12-03 13:36:37,926 INFO receive config info: unknown#192.168.56.1:8848#1670045797926#4
+
+
+2022-12-03 13:36:52,932 INFO receive config info: unknown#192.168.56.1:8848#1670045812932#4
+
+
+2022-12-03 13:37:07,937 INFO receive config info: unknown#192.168.56.1:8848#1670045827937#4
+
+
+2022-12-03 13:37:22,942 INFO receive config info: unknown#192.168.56.1:8848#1670045842942#4
+
+
+2022-12-03 13:37:37,946 INFO receive config info: unknown#192.168.56.1:8848#1670045857946#4
+
+
+2022-12-03 13:37:52,947 INFO receive config info: unknown#192.168.56.1:8848#1670045872947#4
+
+
+2022-12-03 13:38:07,961 INFO receive config info: unknown#192.168.56.1:8848#1670045887961#4
+
+
+2022-12-03 13:38:22,965 INFO receive config info: unknown#192.168.56.1:8848#1670045902965#4
+
+
+2022-12-03 13:38:37,978 INFO receive config info: unknown#192.168.56.1:8848#1670045917978#4
+
+
+2022-12-03 13:38:52,988 INFO receive config info: unknown#192.168.56.1:8848#1670045932988#4
+
+
+2022-12-03 13:39:07,990 INFO receive config info: unknown#192.168.56.1:8848#1670045947990#4
+
+
+2022-12-03 13:39:22,997 INFO receive config info: unknown#192.168.56.1:8848#1670045962997#4
+
+
+2022-12-03 13:39:37,998 INFO receive config info: unknown#192.168.56.1:8848#1670045977998#4
+
+
+2022-12-03 13:39:53,012 INFO receive config info: unknown#192.168.56.1:8848#1670045993012#4
+
+
+2022-12-03 13:40:08,013 INFO receive config info: unknown#192.168.56.1:8848#1670046008013#4
+
+
+2022-12-03 13:40:23,020 INFO receive config info: unknown#192.168.56.1:8848#1670046023020#4
+
+
+2022-12-03 13:40:38,035 INFO receive config info: unknown#192.168.56.1:8848#1670046038035#4
+
+
+2022-12-03 13:40:53,047 INFO receive config info: unknown#192.168.56.1:8848#1670046053047#4
+
+
+2022-12-03 13:41:08,061 INFO receive config info: unknown#192.168.56.1:8848#1670046068061#4
+
+
+2022-12-03 13:41:23,065 INFO receive config info: unknown#192.168.56.1:8848#1670046083065#4
+
+
+2022-12-03 13:41:38,067 INFO receive config info: unknown#192.168.56.1:8848#1670046098067#4
+
+
+2022-12-03 13:41:53,073 INFO receive config info: unknown#192.168.56.1:8848#1670046113073#4
+
+
+2022-12-03 13:42:08,079 INFO receive config info: unknown#192.168.56.1:8848#1670046128079#4
+
+
+2022-12-03 13:42:23,091 INFO receive config info: unknown#192.168.56.1:8848#1670046143091#4
+
+
+2022-12-03 13:42:38,098 INFO receive config info: unknown#192.168.56.1:8848#1670046158098#4
+
+
+2022-12-03 13:42:53,111 INFO receive config info: unknown#192.168.56.1:8848#1670046173111#4
+
+
+2022-12-03 13:43:08,115 INFO receive config info: unknown#192.168.56.1:8848#1670046188115#4
+
+
+2022-12-03 13:43:23,115 INFO receive config info: unknown#192.168.56.1:8848#1670046203115#4
+
+
+2022-12-03 13:43:38,124 INFO receive config info: unknown#192.168.56.1:8848#1670046218124#4
+
+
+2022-12-03 13:43:53,126 INFO receive config info: unknown#192.168.56.1:8848#1670046233126#4
+
+
+2022-12-03 13:44:08,136 INFO receive config info: unknown#192.168.56.1:8848#1670046248136#4
+
+
+2022-12-03 13:44:23,142 INFO receive config info: unknown#192.168.56.1:8848#1670046263142#4
+
+
+2022-12-03 13:44:38,151 INFO receive config info: unknown#192.168.56.1:8848#1670046278151#4
+
+
+2022-12-03 13:44:53,160 INFO receive config info: unknown#192.168.56.1:8848#1670046293160#4
+
+
+2022-12-03 13:45:08,167 INFO receive config info: unknown#192.168.56.1:8848#1670046308167#4
+
+
+2022-12-03 13:45:23,174 INFO receive config info: unknown#192.168.56.1:8848#1670046323174#4
+
+
+2022-12-03 13:45:38,177 INFO receive config info: unknown#192.168.56.1:8848#1670046338177#4
+
+
+2022-12-03 13:45:53,180 INFO receive config info: unknown#192.168.56.1:8848#1670046353180#4
+
+
+2022-12-03 13:46:08,195 INFO receive config info: unknown#192.168.56.1:8848#1670046368195#4
+
+
+2022-12-03 13:46:23,201 INFO receive config info: unknown#192.168.56.1:8848#1670046383201#4
+
+
+2022-12-03 13:46:38,205 INFO receive config info: unknown#192.168.56.1:8848#1670046398205#4
+
+
+2022-12-03 13:46:53,213 INFO receive config info: unknown#192.168.56.1:8848#1670046413213#4
+
+
+2022-12-03 13:47:08,227 INFO receive config info: unknown#192.168.56.1:8848#1670046428227#4
+
+
+2022-12-03 13:47:23,238 INFO receive config info: unknown#192.168.56.1:8848#1670046443238#4
+
+
+2022-12-03 13:47:38,246 INFO receive config info: unknown#192.168.56.1:8848#1670046458246#4
+
+
+2022-12-03 13:47:53,255 INFO receive config info: unknown#192.168.56.1:8848#1670046473255#4
+
+
+2022-12-03 13:48:08,268 INFO receive config info: unknown#192.168.56.1:8848#1670046488268#4
+
+
+2022-12-03 13:48:23,283 INFO receive config info: unknown#192.168.56.1:8848#1670046503283#4
+
+
+2022-12-03 13:48:38,294 INFO receive config info: unknown#192.168.56.1:8848#1670046518294#4
+
+
+2022-12-03 13:48:53,298 INFO receive config info: unknown#192.168.56.1:8848#1670046533298#4
+
+
+2022-12-03 13:49:08,305 INFO receive config info: unknown#192.168.56.1:8848#1670046548305#4
+
+
+2022-12-03 13:49:23,313 INFO receive config info: unknown#192.168.56.1:8848#1670046563313#4
+
+
+2022-12-03 13:49:38,320 INFO receive config info: unknown#192.168.56.1:8848#1670046578320#4
+
+
+2022-12-03 13:49:53,330 INFO receive config info: unknown#192.168.56.1:8848#1670046593330#4
+
+
+2022-12-03 13:50:08,333 INFO receive config info: unknown#192.168.56.1:8848#1670046608333#4
+
+
+2022-12-03 13:50:23,340 INFO receive config info: unknown#192.168.56.1:8848#1670046623340#4
+
+
+2022-12-03 13:50:38,348 INFO receive config info: unknown#192.168.56.1:8848#1670046638348#4
+
+
+2022-12-03 13:50:53,364 INFO receive config info: unknown#192.168.56.1:8848#1670046653364#4
+
+
+2022-12-03 13:51:08,377 INFO receive config info: unknown#192.168.56.1:8848#1670046668377#4
+
+
+2022-12-03 13:51:23,387 INFO receive config info: unknown#192.168.56.1:8848#1670046683387#4
+
+
+2022-12-03 13:51:38,393 INFO receive config info: unknown#192.168.56.1:8848#1670046698393#4
+
+
+2022-12-03 13:51:53,396 INFO receive config info: unknown#192.168.56.1:8848#1670046713396#4
+
+
+2022-12-03 13:52:08,408 INFO receive config info: unknown#192.168.56.1:8848#1670046728408#4
+
+
+2022-12-03 13:52:23,421 INFO receive config info: unknown#192.168.56.1:8848#1670046743421#4
+
+
+2022-12-03 13:52:38,436 INFO receive config info: unknown#192.168.56.1:8848#1670046758436#4
+
+
+2022-12-03 13:52:53,448 INFO receive config info: unknown#192.168.56.1:8848#1670046773448#4
+
+
+2022-12-03 13:53:08,456 INFO receive config info: unknown#192.168.56.1:8848#1670046788456#4
+
+
+2022-12-03 13:53:23,468 INFO receive config info: unknown#192.168.56.1:8848#1670046803468#4
+
+
+2022-12-03 13:53:38,469 INFO receive config info: unknown#192.168.56.1:8848#1670046818469#4
+
+
+2022-12-03 13:53:53,475 INFO receive config info: unknown#192.168.56.1:8848#1670046833475#4
+
+
+2022-12-03 13:54:08,479 INFO receive config info: unknown#192.168.56.1:8848#1670046848479#4
+
+
+2022-12-03 13:54:23,487 INFO receive config info: unknown#192.168.56.1:8848#1670046863487#4
+
+
+2022-12-03 13:54:38,501 INFO receive config info: unknown#192.168.56.1:8848#1670046878501#4
+
+
+2022-12-03 13:54:53,513 INFO receive config info: unknown#192.168.56.1:8848#1670046893513#4
+
+
+2022-12-03 13:55:08,517 INFO receive config info: unknown#192.168.56.1:8848#1670046908517#4
+
+
+2022-12-03 13:55:23,524 INFO receive config info: unknown#192.168.56.1:8848#1670046923524#4
+
+
+2022-12-03 13:55:38,535 INFO receive config info: unknown#192.168.56.1:8848#1670046938535#4
+
+
+2022-12-03 13:55:53,541 INFO receive config info: unknown#192.168.56.1:8848#1670046953541#4
+
+
+2022-12-03 13:56:08,553 INFO receive config info: unknown#192.168.56.1:8848#1670046968553#4
+
+
+2022-12-03 13:56:23,561 INFO receive config info: unknown#192.168.56.1:8848#1670046983561#4
+
+
+2022-12-03 13:56:38,574 INFO receive config info: unknown#192.168.56.1:8848#1670046998574#4
+
+
+2022-12-03 13:56:53,576 INFO receive config info: unknown#192.168.56.1:8848#1670047013576#4
+
+
+2022-12-03 13:57:08,589 INFO receive config info: unknown#192.168.56.1:8848#1670047028589#4
+
+
+2022-12-03 13:57:23,598 INFO receive config info: unknown#192.168.56.1:8848#1670047043598#4
+
+
+2022-12-03 13:57:38,611 INFO receive config info: unknown#192.168.56.1:8848#1670047058611#4
+
+
+2022-12-03 13:57:53,613 INFO receive config info: unknown#192.168.56.1:8848#1670047073613#4
+
+
+2022-12-03 13:58:08,621 INFO receive config info: unknown#192.168.56.1:8848#1670047088621#4
+
+
+2022-12-03 13:58:23,632 INFO receive config info: unknown#192.168.56.1:8848#1670047103632#4
+
+
+2022-12-03 13:58:38,643 INFO receive config info: unknown#192.168.56.1:8848#1670047118643#4
+
+
+2022-12-03 13:58:53,655 INFO receive config info: unknown#192.168.56.1:8848#1670047133655#4
+
+
+2022-12-03 13:59:08,665 INFO receive config info: unknown#192.168.56.1:8848#1670047148665#4
+
+
+2022-12-03 13:59:23,671 INFO receive config info: unknown#192.168.56.1:8848#1670047163671#4
+
+
+2022-12-03 13:59:38,676 INFO receive config info: unknown#192.168.56.1:8848#1670047178676#4
+
+
+2022-12-03 13:59:53,680 INFO receive config info: unknown#192.168.56.1:8848#1670047193680#4
+
+
+2022-12-03 14:00:08,694 INFO receive config info: unknown#192.168.56.1:8848#1670047208694#4
+
+
+2022-12-03 14:00:23,705 INFO receive config info: unknown#192.168.56.1:8848#1670047223705#4
+
+
+2022-12-03 14:00:38,707 INFO receive config info: unknown#192.168.56.1:8848#1670047238707#4
+
+
+2022-12-03 14:00:53,712 INFO receive config info: unknown#192.168.56.1:8848#1670047253712#4
+
+
+2022-12-03 14:01:08,722 INFO receive config info: unknown#192.168.56.1:8848#1670047268722#4
+
+
+2022-12-03 14:01:23,727 INFO receive config info: unknown#192.168.56.1:8848#1670047283727#4
+
+
+2022-12-03 14:01:38,743 INFO receive config info: unknown#192.168.56.1:8848#1670047298743#4
+
+
+2022-12-03 14:01:53,757 INFO receive config info: unknown#192.168.56.1:8848#1670047313757#4
+
+
+2022-12-03 14:02:08,765 INFO receive config info: unknown#192.168.56.1:8848#1670047328765#4
+
+
+2022-12-03 14:02:23,778 INFO receive config info: unknown#192.168.56.1:8848#1670047343778#4
+
+
+2022-12-03 14:02:38,781 INFO receive config info: unknown#192.168.56.1:8848#1670047358781#4
+
+
+2022-12-03 14:02:53,789 INFO receive config info: unknown#192.168.56.1:8848#1670047373789#4
+
+
+2022-12-03 14:03:08,802 INFO receive config info: unknown#192.168.56.1:8848#1670047388802#4
+
+
+2022-12-03 14:03:23,803 INFO receive config info: unknown#192.168.56.1:8848#1670047403803#4
+
+
+2022-12-03 14:03:38,807 INFO receive config info: unknown#192.168.56.1:8848#1670047418807#4
+
+
+2022-12-03 14:03:53,811 INFO receive config info: unknown#192.168.56.1:8848#1670047433811#4
+
+
+2022-12-03 14:04:08,817 INFO receive config info: unknown#192.168.56.1:8848#1670047448817#4
+
+
+2022-12-03 14:04:23,827 INFO receive config info: unknown#192.168.56.1:8848#1670047463827#4
+
+
+2022-12-03 14:04:38,839 INFO receive config info: unknown#192.168.56.1:8848#1670047478839#4
+
+
+2022-12-03 14:04:53,840 INFO receive config info: unknown#192.168.56.1:8848#1670047493840#4
+
+
+2022-12-03 14:05:08,850 INFO receive config info: unknown#192.168.56.1:8848#1670047508850#4
+
+
+2022-12-03 14:05:23,856 INFO receive config info: unknown#192.168.56.1:8848#1670047523856#4
+
+
+2022-12-03 14:05:38,865 INFO receive config info: unknown#192.168.56.1:8848#1670047538865#4
+
+
+2022-12-03 14:05:53,871 INFO receive config info: unknown#192.168.56.1:8848#1670047553871#4
+
+
+2022-12-03 14:06:08,882 INFO receive config info: unknown#192.168.56.1:8848#1670047568882#4
+
+
+2022-12-03 14:06:23,896 INFO receive config info: unknown#192.168.56.1:8848#1670047583896#4
+
+
+2022-12-03 14:06:38,902 INFO receive config info: unknown#192.168.56.1:8848#1670047598902#4
+
+
+2022-12-03 14:06:53,903 INFO receive config info: unknown#192.168.56.1:8848#1670047613903#4
+
+
+2022-12-03 14:07:08,918 INFO receive config info: unknown#192.168.56.1:8848#1670047628918#4
+
+
+2022-12-03 14:07:23,919 INFO receive config info: unknown#192.168.56.1:8848#1670047643919#4
+
+
+2022-12-03 14:07:38,933 INFO receive config info: unknown#192.168.56.1:8848#1670047658933#4
+
+
+2022-12-03 14:07:53,937 INFO receive config info: unknown#192.168.56.1:8848#1670047673937#4
+
+
+2022-12-03 14:08:08,938 INFO receive config info: unknown#192.168.56.1:8848#1670047688938#4
+
+
+2022-12-03 14:08:23,940 INFO receive config info: unknown#192.168.56.1:8848#1670047703940#4
+
+
+2022-12-03 14:08:38,954 INFO receive config info: unknown#192.168.56.1:8848#1670047718954#4
+
+
+2022-12-03 14:08:53,968 INFO receive config info: unknown#192.168.56.1:8848#1670047733968#4
+
+
+2022-12-03 14:09:08,973 INFO receive config info: unknown#192.168.56.1:8848#1670047748973#4
+
+
+2022-12-03 14:09:25,018 INFO receive config info: unknown#192.168.56.1:8848#1670047765018#4
+
+
+2022-12-03 14:36:14,584 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gulimall-third-party, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670047764636,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":30000,"serviceName":"DEFAULT_GROUP@@gulimall-third-party","tenant":"","weight":1.0}
+
+2022-12-03 14:36:14,585 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gulimall-product, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670047763666,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":10001,"serviceName":"DEFAULT_GROUP@@gulimall-product","tenant":"","weight":1.0}
+
+2022-12-03 14:36:14,585 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gulimall-gateway, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670047765684,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@gulimall-gateway","tenant":"","weight":1.0}
+
+2022-12-03 14:36:14,586 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@renren-fast, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670047765522,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}
+
+2022-12-03 14:36:18,779 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-third-party, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-12-03 14:36:18,782 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-product, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-12-03 14:36:18,782 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-12-03 14:36:18,782 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-gateway, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-12-03 14:36:21,249 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-product, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670049381249,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":10001,"serviceName":"DEFAULT_GROUP@@gulimall-product","tenant":"","weight":1.0}]}
+
+2022-12-03 14:36:22,227 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-third-party, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670049382227,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":30000,"serviceName":"DEFAULT_GROUP@@gulimall-third-party","tenant":"","weight":1.0}]}
+
+2022-12-03 14:36:23,100 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670049383100,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2022-12-03 14:36:23,274 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1670049383274,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@gulimall-gateway","tenant":"","weight":1.0}]}
+
+2022-12-03 14:36:27,600 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [{"adWeight":0,"alive":true,"ip":"192.168.56.1","key":"192.168.56.1:8848","lastRefTime":1670044792416,"lastRefTimeStr":"2022-12-03 13:19:52","servePort":8848,"site":"unknown","weight":4}], new: []
+
+2022-12-03 14:36:27,600 INFO receive config info: unknown#192.168.56.1:8848#1670049387600#4
+
+
+2022-12-03 14:36:42,615 INFO receive config info: unknown#192.168.56.1:8848#1670049402615#4
+
+
+2022-12-03 14:36:57,623 INFO receive config info: unknown#192.168.56.1:8848#1670049417623#4
+
+

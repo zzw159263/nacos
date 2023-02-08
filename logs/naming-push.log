@@ -1,0 +1,90 @@
+2022-12-03 13:23:46,778 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-03 13:25:51,243 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-03 13:26:03,554 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-03 13:29:10,391 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2022-12-03 13:30:43,475 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-12-03 13:30:43,476 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 2.0.0.1:53289, agent: Nacos-Java-Client:v1.1.1, key: 2.0.0.1,53289,578572732273600
+
+2022-12-03 13:30:43,476 INFO send udp packet: 2.0.0.1,53289,578572732273600
+
+2022-12-03 13:30:43,485 INFO received ack: {"type": "push-ack", "lastRefTime":"578572732273600", "data":""} from: 2.0.0.1:, cost: 53289 ms, unacked: 9, total push: 0
+
+2022-12-03 13:30:49,629 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
+
+2022-12-03 14:36:15,589 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-12-03 14:36:17,275 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
+
+2022-12-03 14:36:17,275 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2022-12-03 14:36:17,275 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-03 14:36:19,774 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2022-12-03 14:36:19,774 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-03 14:36:19,774 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 2.0.0.1:53289, agent: Nacos-Java-Client:v1.1.1, key: 2.0.0.1,53289,582509044579000
+
+2022-12-03 14:36:19,774 INFO send udp packet: 2.0.0.1,53289,582509044579000
+
+2022-12-03 14:36:19,775 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
+
+2022-12-03 14:36:19,775 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-12-03 14:36:19,775 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 2.0.0.1:53289, agent: Nacos-Java-Client:v1.1.1, key: 2.0.0.1,53289,582509045621900
+
+2022-12-03 14:36:19,775 INFO send udp packet: 2.0.0.1,53289,582509045621900
+
+2022-12-03 14:36:22,256 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-12-03 14:36:22,256 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 2.0.0.1:53289, agent: Nacos-Java-Client:v1.1.1, key: 2.0.0.1,53289,582511526712800
+
+2022-12-03 14:36:22,256 INFO send udp packet: 2.0.0.1,53289,582511526712800
+
+2022-12-03 14:36:23,239 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
+
+2022-12-03 14:36:24,112 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-03 14:36:24,112 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 2.0.0.1:53289, agent: Nacos-Java-Client:v1.1.1, key: 2.0.0.1,53289,582513382657400
+
+2022-12-03 14:36:24,112 INFO send udp packet: 2.0.0.1,53289,582513382657400
+
+2022-12-03 14:36:24,283 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2022-12-03 14:36:29,785 INFO retry to push data, key: 2.0.0.1,53289,582509044579000
+
+2022-12-03 14:36:29,785 INFO send udp packet: 2.0.0.1,53289,582509044579000
+
+2022-12-03 14:36:29,786 INFO retry to push data, key: 2.0.0.1,53289,582509045621900
+
+2022-12-03 14:36:29,786 INFO send udp packet: 2.0.0.1,53289,582509045621900
+
+2022-12-03 14:36:32,264 INFO retry to push data, key: 2.0.0.1,53289,582511526712800
+
+2022-12-03 14:36:32,264 INFO send udp packet: 2.0.0.1,53289,582511526712800
+
+2022-12-03 14:36:34,118 INFO retry to push data, key: 2.0.0.1,53289,582513382657400
+
+2022-12-03 14:36:34,118 INFO send udp packet: 2.0.0.1,53289,582513382657400
+
+2022-12-03 14:36:39,798 INFO retry to push data, key: 2.0.0.1,53289,582509044579000
+
+2022-12-03 14:36:39,798 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53289,582509044579000
+
+2022-12-03 14:36:39,799 INFO retry to push data, key: 2.0.0.1,53289,582509045621900
+
+2022-12-03 14:36:39,799 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53289,582509045621900
+
+2022-12-03 14:36:42,275 INFO retry to push data, key: 2.0.0.1,53289,582511526712800
+
+2022-12-03 14:36:42,275 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53289,582511526712800
+
+2022-12-03 14:36:44,121 INFO retry to push data, key: 2.0.0.1,53289,582513382657400
+
+2022-12-03 14:36:44,121 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53289,582513382657400
+

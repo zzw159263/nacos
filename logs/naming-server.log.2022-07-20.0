@@ -1,0 +1,220 @@
+2022-07-20 00:18:59,982 INFO listen for service meta change
+
+2022-07-20 00:19:09,831 INFO [SERVER-INIT] got port: 8848
+
+2022-07-20 00:19:09,831 INFO [SERVER-INIT] got path: /nacos
+
+2022-07-20 00:19:12,773 INFO creating empty service public:DEFAULT_GROUP@@gulimall-coupon
+
+2022-07-20 00:19:12,801 INFO [NEW-SERVICE] {"appName":"","checksum":"86a407cc9b0dcdc732d803691429ab10","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1658247552782,"metadata":{},"name":"DEFAULT_GROUP@@gulimall-coupon","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-07-20 00:19:12,853 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658247552773,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-07-20 00:19:12,858 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658247552773,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 00:19:19,864 INFO receive config info: unknown#2.0.0.1:8848#1658247559864#4
+
+
+2022-07-20 00:19:34,871 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [], new: [{"adWeight":0,"alive":true,"ip":"2.0.0.1","key":"2.0.0.1:8848","lastRefTime":1658247559864,"lastRefTimeStr":"2022-07-20 00:19:19","servePort":8848,"site":"unknown","weight":4}]
+
+2022-07-20 00:19:34,871 INFO receive config info: unknown#2.0.0.1:8848#1658247574871#4
+
+
+2022-07-20 00:19:49,881 INFO receive config info: unknown#2.0.0.1:8848#1658247589881#4
+
+
+2022-07-20 00:20:04,897 INFO receive config info: unknown#2.0.0.1:8848#1658247604897#4
+
+
+2022-07-20 00:20:19,906 INFO receive config info: unknown#2.0.0.1:8848#1658247619906#4
+
+
+2022-07-20 00:20:34,915 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2022-07-20 00:20:34,915 INFO receive config info: unknown#2.0.0.1:8848#1658247634915#4
+
+
+2022-07-20 00:20:49,018 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-20 00:20:49,929 INFO receive config info: unknown#2.0.0.1:8848#1658247649929#4
+
+
+2022-07-20 00:20:57,537 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658247657536,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 00:20:57,541 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658247657540,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 00:21:04,945 INFO receive config info: unknown#2.0.0.1:8848#1658247664945#4
+
+
+2022-07-20 00:21:19,963 INFO receive config info: unknown#2.0.0.1:8848#1658247679963#4
+
+
+2022-07-20 00:21:34,971 INFO receive config info: unknown#2.0.0.1:8848#1658247694971#4
+
+
+2022-07-20 00:21:49,980 INFO receive config info: unknown#2.0.0.1:8848#1658247709980#4
+
+
+2022-07-20 00:22:04,988 INFO receive config info: unknown#2.0.0.1:8848#1658247724988#4
+
+
+2022-07-20 00:22:19,998 INFO receive config info: unknown#2.0.0.1:8848#1658247739998#4
+
+
+2022-07-20 00:22:35,006 INFO receive config info: unknown#2.0.0.1:8848#1658247755006#4
+
+
+2022-07-20 00:22:50,013 INFO receive config info: unknown#2.0.0.1:8848#1658247770013#4
+
+
+2022-07-20 00:23:05,029 INFO receive config info: unknown#2.0.0.1:8848#1658247785029#4
+
+
+2022-07-20 00:23:20,042 INFO receive config info: unknown#2.0.0.1:8848#1658247800042#4
+
+
+2022-07-20 00:23:35,058 INFO receive config info: unknown#2.0.0.1:8848#1658247815058#4
+
+
+2022-07-20 00:23:50,062 INFO receive config info: unknown#2.0.0.1:8848#1658247830062#4
+
+
+2022-07-20 00:24:05,072 INFO receive config info: unknown#2.0.0.1:8848#1658247845072#4
+
+
+2022-07-20 00:24:20,087 INFO receive config info: unknown#2.0.0.1:8848#1658247860087#4
+
+
+2022-07-20 00:24:35,100 INFO receive config info: unknown#2.0.0.1:8848#1658247875100#4
+
+
+2022-07-20 00:24:50,116 INFO receive config info: unknown#2.0.0.1:8848#1658247890116#4
+
+
+2022-07-20 00:25:05,121 INFO receive config info: unknown#2.0.0.1:8848#1658247905121#4
+
+
+2022-07-20 00:25:20,122 INFO receive config info: unknown#2.0.0.1:8848#1658247920122#4
+
+
+2022-07-20 00:25:35,136 INFO receive config info: unknown#2.0.0.1:8848#1658247935136#4
+
+
+2022-07-20 00:25:50,141 INFO receive config info: unknown#2.0.0.1:8848#1658247950141#4
+
+
+2022-07-20 00:26:05,154 INFO receive config info: unknown#2.0.0.1:8848#1658247965154#4
+
+
+2022-07-20 00:26:17,741 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-20 00:26:20,164 INFO receive config info: unknown#2.0.0.1:8848#1658247980164#4
+
+
+2022-07-20 00:26:26,180 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658247986180,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 00:26:26,182 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658247986182,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 00:26:35,171 INFO receive config info: unknown#2.0.0.1:8848#1658247995171#4
+
+
+2022-07-20 00:26:50,174 INFO receive config info: unknown#2.0.0.1:8848#1658248010174#4
+
+
+2022-07-20 00:27:05,190 INFO receive config info: unknown#2.0.0.1:8848#1658248025190#4
+
+
+2022-07-20 00:27:20,194 INFO receive config info: unknown#2.0.0.1:8848#1658248040194#4
+
+
+2022-07-20 00:27:35,195 INFO receive config info: unknown#2.0.0.1:8848#1658248055195#4
+
+
+2022-07-20 00:27:50,201 INFO receive config info: unknown#2.0.0.1:8848#1658248070201#4
+
+
+2022-07-20 00:28:05,212 INFO receive config info: unknown#2.0.0.1:8848#1658248085212#4
+
+
+2022-07-20 00:28:20,223 INFO receive config info: unknown#2.0.0.1:8848#1658248100223#4
+
+
+2022-07-20 00:28:35,225 INFO receive config info: unknown#2.0.0.1:8848#1658248115225#4
+
+
+2022-07-20 00:28:50,238 INFO receive config info: unknown#2.0.0.1:8848#1658248130238#4
+
+
+2022-07-20 00:29:05,250 INFO receive config info: unknown#2.0.0.1:8848#1658248145250#4
+
+
+2022-07-20 00:29:20,261 INFO receive config info: unknown#2.0.0.1:8848#1658248160261#4
+
+
+2022-07-20 00:29:35,268 INFO receive config info: unknown#2.0.0.1:8848#1658248175268#4
+
+
+2022-07-20 00:29:50,285 INFO receive config info: unknown#2.0.0.1:8848#1658248190285#4
+
+
+2022-07-20 00:30:05,286 INFO receive config info: unknown#2.0.0.1:8848#1658248205286#4
+
+
+2022-07-20 00:30:20,299 INFO receive config info: unknown#2.0.0.1:8848#1658248220299#4
+
+
+2022-07-20 00:30:35,304 INFO receive config info: unknown#2.0.0.1:8848#1658248235304#4
+
+
+2022-07-20 00:30:50,313 INFO receive config info: unknown#2.0.0.1:8848#1658248250313#4
+
+
+2022-07-20 00:31:05,324 INFO receive config info: unknown#2.0.0.1:8848#1658248265324#4
+
+
+2022-07-20 00:31:20,334 INFO receive config info: unknown#2.0.0.1:8848#1658248280334#4
+
+
+2022-07-20 00:31:35,339 INFO receive config info: unknown#2.0.0.1:8848#1658248295339#4
+
+
+2022-07-20 00:31:50,367 INFO receive config info: unknown#2.0.0.1:8848#1658248310367#4
+
+
+2022-07-20 00:32:05,369 INFO receive config info: unknown#2.0.0.1:8848#1658248325369#4
+
+
+2022-07-20 03:32:11,577 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gulimall-coupon, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658248327294,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}
+
+2022-07-20 03:32:12,282 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-20 03:32:12,990 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658259132989,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 08:49:27,420 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gulimall-coupon, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658259132989,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}
+
+2022-07-20 08:49:27,685 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-20 08:49:28,683 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"2.0.0.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"2.0.0.1","ipDeleteTimeout":30000,"lastBeat":1658278168682,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@gulimall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-20 08:49:31,713 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [{"adWeight":0,"alive":true,"ip":"2.0.0.1","key":"2.0.0.1:8848","lastRefTime":1658247559864,"lastRefTimeStr":"2022-07-20 00:19:19","servePort":8848,"site":"unknown","weight":4}], new: []
+
+2022-07-20 08:49:31,713 INFO receive config info: unknown#2.0.0.1:8848#1658278171713#4
+
+
+2022-07-20 08:49:46,717 INFO receive config info: unknown#2.0.0.1:8848#1658278186717#4
+
+
+2022-07-20 08:50:01,680 INFO receive config info: unknown#2.0.0.1:8848#1658278201680#4
+
+
+2022-07-20 08:50:16,667 INFO receive config info: unknown#2.0.0.1:8848#1658278216667#4
+
+
+2022-07-20 08:50:31,664 INFO receive config info: unknown#2.0.0.1:8848#1658278231664#4
+
+
+2022-07-20 08:50:46,673 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2022-07-20 08:50:46,673 INFO receive config info: unknown#2.0.0.1:8848#1658278246673#4
+
+
